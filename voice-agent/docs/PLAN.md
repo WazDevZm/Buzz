@@ -79,7 +79,6 @@ Because some pins are less than two weeks old (Dograh 1.49.0, vLLM 0.31.0), each
 - `/health` and `/metrics` are **not** protected by `--api-key`. They stay LAN-only and are scraped by Prometheus.
 
 **Speaches**
-
 - `API_KEY`
 - `PRELOAD_MODELS=["deepdml/faster-whisper-large-v3-turbo-ct2","speaches-ai/Kokoro-82M-v1.0-ONNX"]` (JSON list format **verify**)
 - `STT_MODEL_TTL=-1`, `TTS_MODEL_TTL=-1` so models never unload
